@@ -1,14 +1,10 @@
-const imgInput = document.querySelector("#imgInput");
+const imgInput = document.querySelector("#input__img");
 
 imgInput.addEventListener("change", function (e){
     const reader = new FileReader();
     reader.addEventListener("load", () => {
-        const displayer = document.querySelector("#img-container");
-        const img = document.createElement("img");
-        img.src = reader.result;
-        img.width = "400";
-        img.height = "400";
-        displayer.appendChild(img); 
+        const displayer = document.querySelector("#img__container");
+        displayer.style.backgroundImage = `url(${reader.result})`;
     })
     reader.readAsDataURL(this.files[0])
 })
