@@ -14,14 +14,16 @@ body{
     place-content: center;
 }
 
-li{
-    list-style: none;
+ul{
+    display: flex;
+    align-items: center;
+}
+
+button, li{
+    all: unset;
 }
 
 .button{
-    width: 3rem;
-    height: 1rem;
-
     padding: 5px;
 
     border: 1px solid black;
