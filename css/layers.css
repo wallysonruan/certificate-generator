@@ -1,12 +1,14 @@
-#input__img{
-    display: none;
-}
-
-#img__container{
+#layer__first{
     position: relative;
 
     /* A4 Sheet: 2480px X 3508px */
     width: 1169.33333333px; /* 3508/3 */
     height: 826.666666667px; /* 2480/3 */
     border: 2px dotted black;
+}
+
+#layer__second{
+    position: absolute;
+    width: 100%;
+    height: 100%;
 }

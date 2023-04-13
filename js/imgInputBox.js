@@ -11,7 +11,7 @@ imgInputBox.addEventListener("change", function (e){
 })
 
 function addImgElementToSecondLayer(img){
-    const secondLayer = document.querySelector("#second-layer");
+    const secondLayer = document.querySelector("#layer__second");
     const imgElementContainer = document.createElement("div");
     const imgElement = document.createElement("img");
 
