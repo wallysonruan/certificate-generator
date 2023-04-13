@@ -15,9 +15,12 @@ function addImgElementToSecondLayer(img){
     const imgElementContainer = document.createElement("div");
     const imgElement = document.createElement("img");
 
+    imgElementContainer.draggable = true;
+
     imgElement.width = 300;
     imgElement.height = 300;
     imgElement.src = img;
+    imgElement.draggable = false;
 
     imgElementContainer.appendChild(toolKit())
     imgElementContainer.appendChild(imgElement)
