@@ -16,8 +16,8 @@ body{
 
 #second-layer{
     position: absolute;
-    width: 600px; /* 3508/3 */
-    height: 600px; /* 2480/3 */
+    width: 100%;
+    height: 100%;
 }
 
 ul{
