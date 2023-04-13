@@ -17,7 +17,7 @@ function addBackground(img){
 }
 
 function addImgElementToImgContainer(){
-    const displayer = document.querySelector("#img__container");
+    const displayer = document.querySelector("#layer__first");
 
     // Does not allow to create a new <img>.
     if(displayer.children[1]){

@@ -1,4 +1,4 @@
-const displayer = document.querySelector("#second-layer");
+const displayer = document.querySelector("#layer__second");
 let elementBeingDragged = undefined;
 let mousePositionX = undefined;
 let mousePositionY = undefined;
