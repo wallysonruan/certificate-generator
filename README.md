@@ -34,3 +34,11 @@ Sinta-se à vontade para contribuir com o projeto, fazendo um fork do repositór
 # Roteiro
 
 A definir.
+
+# Recursos Utilizados
+
+- [Youtube | Thiago Pereira - Drag and Drop com Javascript](https://www.youtube.com/watch?v=tONadwAs_Hw)
+- [Coding Beauty Dev | How to Get the Current Mouse Position in JavaScript](https://codingbeautydev.com/blog/javascript-get-mouse-position/)
+- [Stack Overflow | addEventListener drop not firing](https://stackoverflow.com/questions/46668079/addeventlistener-drop-not-firing)
+- [W3School | JavaScript and HTML DOM Reference](https://www.w3schools.com/jsref/)
+- [MDN Web Docs | HTMLElement](https://developer.mozilla.org/en-US/docs/Web/API/HTMLElement/drop_event)
