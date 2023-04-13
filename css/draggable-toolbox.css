@@ -1,0 +1,7 @@
+[draggable=true]:hover::before{
+    position: absolute;
+    top: 10px;
+    content: "a";
+    width: 100px;
+    height: 100px;
+}
