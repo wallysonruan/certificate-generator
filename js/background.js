@@ -20,7 +20,7 @@ function addImgElementToImgContainer(){
     const displayer = document.querySelector("#img__container");
 
     // Does not allow to create a new <img>.
-    if(displayer.children[0]){
+    if(displayer.children[1]){
         return;
     }
 
