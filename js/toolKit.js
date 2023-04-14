@@ -4,6 +4,7 @@ export default function toolKit(){
 
     listItem.appendChild(eraseButton());
     list.appendChild(listItem);
+    list.classList.add("toolKit");
 
     return list;
 }
@@ -15,6 +16,7 @@ function eraseButton(){
     button.classList.add("button", "button__erase");
 
     button.addEventListener("click", (event) => {
+        //Chain of parents [element: button] > li > ul > div (which contains the entire element)
         event.target.parentElement.parentElement.parentElement.remove();
     });
 

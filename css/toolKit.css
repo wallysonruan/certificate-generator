@@ -1,0 +1,7 @@
+.toolKit{
+    display: none;
+}
+
+.input__addText:focus ~ .toolKit{
+    display: block;
+}
