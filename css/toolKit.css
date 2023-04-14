@@ -1,7 +1,7 @@
-.toolKit{
+/* .toolKit{
     display: none;
 }
 
-.input__addText:focus ~ .toolKit{
+.hasToolKit:focus ~ .toolKit{
     display: block;
-}
+} */

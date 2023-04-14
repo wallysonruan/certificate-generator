@@ -1,4 +1,4 @@
-import toolKit from "./toolKit.js";
+import elementContainer from "./elementContainer.js";
 
 const imgInputBox = document.querySelector("#input__img-box");
 
@@ -11,18 +11,14 @@ imgInputBox.addEventListener("change", function (e){
 })
 
 function addImgElementToSecondLayer(img){
-    const secondLayer = document.querySelector("#layer__second");
-    const imgElementContainer = document.createElement("div");
     const imgElement = document.createElement("img");
-
-    imgElementContainer.draggable = true;
-
     imgElement.width = 300;
     imgElement.height = 300;
     imgElement.src = img;
     imgElement.draggable = false;
+    
+    const imgElementContainer = elementContainer(imgElement);
 
-    imgElementContainer.appendChild(toolKit())
-    imgElementContainer.appendChild(imgElement)
+    const secondLayer = document.querySelector("#layer__second");
     secondLayer.appendChild(imgElementContainer);
 }

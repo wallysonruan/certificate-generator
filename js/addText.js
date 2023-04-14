@@ -1,4 +1,4 @@
-import toolKit from "./toolKit.js";
+import elementContainer from "./elementContainer.js";
 
 const addText = document.querySelector("#button__add-text");
 addText.addEventListener("click", () => {
@@ -6,15 +6,12 @@ addText.addEventListener("click", () => {
 })
 
 function createInputText(){
-    const displayer = document.querySelector("#layer__second");
-    const inputTextContainer = document.createElement("div");
     const inputText = document.createElement("input");
-    const inputTextToolKit = toolKit();
-
-    inputTextContainer.draggable = "true";
     inputText.type = "text";
+    inputText.classList.add("input__addText");
+    
+    const inputTextContainer = elementContainer(inputText);
 
-    inputTextContainer.appendChild(inputTextToolKit);
-    inputTextContainer.appendChild(inputText);
+    const displayer = document.querySelector("#layer__second");
     displayer.appendChild(inputTextContainer);
 }
